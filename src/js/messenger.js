@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import User from './User.js';
 
-const user = new User('https://ahj-sse-ws.herokuapp.com/');
+const user = new User('https://ahj-sse-ws.herokuapp.com/user');
 
 function convertDate(value) {
   const rValue = value < 10 ? `0${value}` : value;
