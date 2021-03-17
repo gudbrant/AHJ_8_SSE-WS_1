@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 20px 20px;
+  background-position: center center;
+}
+
+.window {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#alert {
+  position: absolute;
+  top: 20px;
+  background-color: #ffffff;
+}
+input {
+  width: 100%;
+}
+
+.button {
+  border: 1px solid;
+  padding: 10px 30px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.messanger {
+  display: flex;
+}
+
+#list-users {
+  border: 1px solid;
+  border-right: none;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin-top: 15px;
+  overflow: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #ffffff;
+}
+
+.item-user {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.item-img-user {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.item-name-user.active {
+  color: #ff0000;
+}
+
+.messanger-list {
+  border: 1px solid;
+  padding: 10px;
+  width: 500px;
+  border-radius: 15px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+#list-msg {
+  height: 100%;
+  overflow: auto;
+  padding: 0;
+  padding-right: 15px;
+}
+
+.list-item-msg {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #000000;
+}
+
+.list-item-msg.active {
+  align-items: flex-end;
+}
+
+.active > .list-item-head {
+  color: #ff0000;
+}
+.hidden {
+  display: none;
+}
