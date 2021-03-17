@@ -1,7 +1,7 @@
 import User from './User.js';
 import Messanger from './messenger.js';
 
-const user = new User('https://ahj-sse-ws.herokuapp.com/user');
+const user = new User('https://ahj-sse-ws.herokuapp.com/');
 
 const elWindowStart = document.querySelector('.window');
 const submitName = document.querySelector('#submit-name');
